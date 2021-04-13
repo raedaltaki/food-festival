@@ -21,7 +21,7 @@ $(document).ready( function()
             image: calEvent.image
         }));
         
-        window.location.href = "events.html"
+        window.location.href = "events.html";
 
     }
 
@@ -124,4 +124,4 @@ $(document).ready( function()
     pageEl.appendChild(containerEl1);
     pageEl.appendChild(containerEl2);
     pageEl.appendChild(containerEl3);
-})
+});

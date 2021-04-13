@@ -13,8 +13,8 @@ $(document).ready( function()
     function purchaseTicket () 
     {
 
-        modalEl.removeChild(modalBodyEl)
-        modalEl.removeChild(modalFooterEl)
+        modalEl.removeChild(modalBodyEl);
+        modalEl.removeChild(modalFooterEl);
 
         modalEl.append(createEl("div", {class: "modal-body"},
         createEl("h5", {class: "modal-title"}, 
@@ -24,4 +24,4 @@ $(document).ready( function()
         
     }
     purchaseBtn.addEventListener("click", purchaseTicket);
-})
+});
